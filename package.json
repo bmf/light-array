@@ -1,0 +1,14 @@
+{
+  "name": "light-array",
+  "version": "0.0.1",
+  "description": "On off switches for LEDs in a circuit",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Flade (@_BMF_)",
+  "license": "None",
+  "dependencies": {
+    "express": "~4.5.1"
+  }
+}
