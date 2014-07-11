@@ -9,6 +9,7 @@
   "author": "Brandon Flade (@_BMF_)",
   "license": "None",
   "dependencies": {
-    "express": "~4.5.1"
+    "express": "~4.5.1",
+    "johnny-five": "~0.7.55"
   }
 }

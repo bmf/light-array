@@ -1,8 +1,8 @@
 function message() {
-  console.log("In message()");
-  var elMsg = document.getElementById('message');
 
-  if (elMsg.textContent === '') {
+  var elMsg = document.getElementById('message');
+  console.log(elMsg.textContent);
+  if (elMsg.textContent === '' || elMsg.textContent === undefined) {
     elMsg.textContent = 'You have clicked LED 1';
   } else {
     elMsg.textContent = '';
